@@ -2,8 +2,8 @@
 
 🚀 **Landing page optimizada para La Roca Barber Shop**, diseñada para atraer más clientes y mejorar la conversión de reservas a través de WhatsApp.
 
-![Preview de la Web](resources/img/preview.jpg) *(Reemplaza con una imagen real de la página)*  
-
+![Preview de la Web](resources/img/preview.jpg) 
+![Preview de la Web](resources/img/preview2.jpg) 
 ---
 
 ## 🎯 **Características Principales**
