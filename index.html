@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Título optimizado -->
+  <title>La Roca Barber Shop | Barbería Profesional en Chile</title>
+
+  <!-- Meta descripción (para aparecer en Google) -->
+  <meta name="description" content="La Roca Barber Shop en Melipilla: cortes de cabello modernos, diseño de barba y tratamientos premium. ¡Reserva tu cita con nosotros!">
+
+  <!-- Palabras clave relevantes -->
+  <meta name="keywords" content="barbería en Melipilla, corte de cabello moderno, barber shop Melipilla, diseño de barba, tratamientos capilares, barbería profesional">
+  
+  <!-- Enlace Canonical para evitar duplicados -->
+  <link rel="canonical" href="https://larocabshop.com">
+  
+  <!-- Open Graph (para compartir en redes sociales) -->
+  <meta property="og:title" content="La Roca Barber Shop | Barbería Profesional en Chile">
+  <meta property="og:description" content="Experimenta el mejor servicio de barbería con nuestros cortes profesionales, tratamientos y diseño de barba. Reserva tu cita hoy.">
+  <meta property="og:image" content="https://tudominio.com/img/preview.jpg">
+  <meta property="og:url" content="https://larocabshop.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Cards (para compartir en Twitter) -->
+  <meta name="twitter:title" content="La Roca Barber Shop | Barbería Profesional en Chile">
+  <meta name="twitter:description" content="Cortes profesionales, diseño de barba y tratamientos exclusivos. Reserva tu cita en La Roca Barber Shop.">
+  <meta name="twitter:image" content="https://tudominio.com/img/preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+  <!-- Required meta tags -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Hello, world!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="marketing-bar px-3">
+
+    <!-- Iconos de redes sociales -->
+    <div class="social-icons">
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <!-- Texto (estático en escritorio, animado en mobile) -->
+    <div class="marquee-container">
+      <div class="marketing-text">
+        💈 ¡Hablanos a whatsapp para obtener 10% de descuento en tu corte de cabello! 💈
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="menu-toggle" onclick="toggleMenu()">
+      &#9776;
+    </div>
+    <div class="logo">
+      <img src="resources/img/logobarber.png" alt="Logo Barbería">
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href=" #">Inicio</a>
+      <a href="#servicios">Servicios</a>   
+      <a href="#galeria">Galeria</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/+56992674114" target="_blank" class="btn-reserva">
+        Reserva tu Cita
+      </a>
+      
+    </div>
+  </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="resources/img/slide1.png" class="d-block w-100" alt="..." loading="lazy">
+        
+        </div>
+        <div class="carousel-item">
+          <img src="resources/img/slide2.png" class="d-block w-100" loading="lazy" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="resources/img/slide3.png" class="d-block w-100" alt="..." loading="lazy">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+  
+  
+    <section id="servicios" class="container my-5">
+      <h2 class="text-center fw-bold text-uppercase mb-4 text-dark">Nuestros Servicios</h2>
+      <div class="row row-cols-2 row-cols-md-3 g-4">
+          <!-- Corte de Cabello Masculino -->
+          <div class="col">
+              <div class="card shadow-lg border-0 rounded-4 h-100">
+                  <div class="card-body text-center d-flex flex-column justify-content-between">
+                      <i class="fas fa-cut fa-3x text-danger mb-3"></i>
+                      <h4 class="fw-bold">Corte de Cabello</h4>
+                      <p class="text-muted">Estilos modernos y clásicos con precisión profesional.</p>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Afeitado Clásico -->
+          <div class="col">
+              <div class="card shadow-lg border-0 rounded-4 h-100">
+                  <div class="card-body text-center d-flex flex-column justify-content-between">
+                      <i class="fas fa-user-tie fa-3x text-danger mb-3"></i>
+                      <h4 class="fw-bold">Afeitado Clásico</h4>
+                      <p class="text-muted">Un afeitado suave con navaja para una piel impecable.</p>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Diseño de Barba -->
+          <div class="col">
+              <div class="card shadow-lg border-0 rounded-4 h-100">
+                  <div class="card-body text-center d-flex flex-column justify-content-between">
+                    <i class="fas fa-user-tie fa-3x text-danger mb-3"></i>
+                    <h4 class="fw-bold">Diseño de Barba</h4>
+                      <p class="text-muted">Define y da forma a tu barba con precisión.</p>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Tratamientos Capilares -->
+          <div class="col">
+              <div class="card shadow-lg border-0 rounded-4 h-100">
+                  <div class="card-body text-center d-flex flex-column justify-content-between">
+                      <i class="fas fa-spa fa-3x text-danger mb-3"></i>
+                      <h4 class="fw-bold">Tratamientos Capilares</h4>
+                      <p class="text-muted">Revitaliza tu cabello con nuestros tratamientos especializados.</p>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Barba Degradada -->
+          <div class="col">
+              <div class="card shadow-lg border-0 rounded-4 h-100">
+                  <div class="card-body text-center d-flex flex-column justify-content-between">
+                      <i class="fas fa-fire fa-3x text-danger mb-3"></i>
+                      <h4 class="fw-bold">Barba Degradada</h4>
+                      <p class="text-muted">Un degradado perfecto para un look impecable.</p>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Baño de Vapor Facial -->
+          <div class="col">
+              <div class="card shadow-lg border-0 rounded-4 h-100">
+                  <div class="card-body text-center d-flex flex-column justify-content-between">
+                      <i class="fas fa-wind fa-3x text-danger mb-3"></i>
+                      <h4 class="fw-bold">Baño de Vapor Facial</h4>
+                      <p class="text-muted">Limpieza profunda y relajante para la piel.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="container text-center my-4">
+    <h5 class="fw-bold text-dark">✔️ Garantía de Satisfacción | 🏆 Barberos Profesionales | ⭐ +500 Clientes Felices</h5>
+  </div>
+
+
+  <section id="testimonios" class="container my-5">
+    <h2 class="text-center fw-bold text-uppercase mb-4 text-dark">Lo que dicen nuestros clientes</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="testimonial p-3">
+                <img src="resources/img/client1.jpg" class="testimonial-img rounded-circle mb-2" alt="Cliente feliz">
+                <p>"Increíble servicio, me dejaron un corte impecable. ¡Definitivamente volveré!"</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <strong>- Juan Pérez</strong>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="testimonial p-3">
+                <img src="resources/img/client2.jpg" class="testimonial-img rounded-circle mb-2" alt="Cliente feliz">
+                <p>"La mejor barbería en Melipilla, 100% recomendada. Excelente atención."</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <strong>- Carlos Ramírez</strong>
+            </div>
+        </div>
+    </div>
+</section>
+  <section id="antes-despues" class="container my-5 text-center">
+    <h2 class="fw-bold text-uppercase mb-4 text-dark">Antes & Después</h2>
+    <p class="text-muted">Mira cómo transformamos tu estilo con cortes profesionales.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="resources/img/antes.jpg" class="img-fluid shadow-lg" alt="Antes del corte">
+        </div>
+        <div class="col-md-6">
+            <img src="resources/img/despues.jpg" class="img-fluid shadow-lg" alt="Después del corte">
+        </div>
+    </div>
+</section>
+
+  <section id="galeria" class="container my-5">
+    <h2 class="text-center fw-bold text-uppercase mb-4 text-dark">Nuestra Galería</h2>
+    <div class="row g-3">
+        <div class="col-6 col-md-3">
+            <div class="gallery-item">
+                <img src="resources/img/galeria/galeria1.png" loading="lazy" class="img-fluid" alt="Corte 1">
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="gallery-item">
+                <img src="resources/img/galeria/galeria2.png" loading="lazy" class="img-fluid" alt="Corte 2">
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="gallery-item">
+                <img src="resources/img/galeria/galeria3.png"  loading="lazy" class="img-fluid" alt="Corte 3">
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="gallery-item">
+                <img src="resources/img/galeria/galeria4.png" loading="lazy" class="img-fluid" alt="Corte 4">
+            </div>
+        </div>
+   
+    </div>
+</section>
+
+
+
+<section id="contacto" class="container my-5 text-center">
+  <h2 class="fw-bold text-uppercase mb-4 text-dark">Contáctanos</h2>
+  
+  <!-- Botón de WhatsApp -->
+  <a href="https://wa.me/+56992674114" target="_blank" class="btn-whatsapp">
+    <i class="fab fa-whatsapp"></i> Agenda Ahora y Obtén un Descuento!
+  </a>
+  
+
+  <!-- Mapa de Google Maps -->
+  <div class="map-container mt-4">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.519206521574!2d-71.2177532!3d-33.6865346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966255dce07517d1%3A0xa6883edac3c63456!2sLa%20Roca%20barber%20shop!5e0!3m2!1ses!2scl!4v1710165738593!5m2!1ses!2scl" 
+      width="100%" 
+          height="400" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+      </iframe>
+  </div>
+</section>
+<footer class="footer mt-5">
+  <div class="container">
+      <div class="row text-center text-md-start">
+          <!-- Logo y descripción -->
+          <div class="col-md-4">
+              <h4 class="fw-bold text-light">La Roca Barber Shop</h4>
+              <p class="text-muted">Tu mejor experiencia en barbería, con estilo y precisión.</p>
+          </div>
+
+          <!-- Enlaces rápidos -->
+          <div class="col-md-4">
+              <h5 class="fw-bold text-light">Enlaces</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#servicios">Servicios</a></li>
+                  <li><a href="#galeria">Galería</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+              </ul>
+          </div>
+
+          <!-- Redes Sociales -->
+          <div class="col-md-4 text-center text-md-end">
+            <h5 class="fw-bold text-light">Síguenos</h5>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/laroca_324/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/luismelindres" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/+569926741140" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        
+
+      <!-- Línea divisoria -->
+      <hr class="text-muted my-4">
+
+      <!-- Derechos reservados -->
+      <div class="text-center text-muted">
+          <p class="mb-0">&copy; 2025 La Roca Barber Shop | Todos los derechos reservados.</p>
+      </div>
+  </div>
+</footer>
+
+
+  
+  <!-- JavaScript -->
+  <script>
+    function toggleMenu() {
+      var nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+  </script>
+
+<script>
+  window.addEventListener("scroll", function() {
+    var navbar = document.querySelector(".navbar");
+    if (window.scrollY > 50) {
+        navbar.classList.add("shrink");
+    } else {
+        navbar.classList.remove("shrink");
+    }
+});
+
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    defer></script>
+
+
+</body>
+
+</html>
