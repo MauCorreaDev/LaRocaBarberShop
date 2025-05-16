@@ -38,7 +38,7 @@
 ---
 
 ## 📲 **Cómo Ver la Página**
-Puedes ver el sitio en vivo aquí: **[https://larocabshop.netlify.app](https://larocabshop.netlify.app)** *(Reemplaza con el link real)*  
+Puedes ver el sitio en vivo aquí: **[https://larocabshop.netlify.app](https://larocabshop.netlify.app)**    
 
 ---
 
